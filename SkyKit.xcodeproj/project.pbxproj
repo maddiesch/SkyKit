@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94C5DE821DC5C0D300582DC3 /* SkyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C5DE801DC5C0D300582DC3 /* SkyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94C5DE9D1DC5C6B700582DC3 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5DE9C1DC5C6B700582DC3 /* AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		94C5DE8D1DC5C13A00582DC3 /* SkyKit-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SkyKit-Base.xcconfig"; sourceTree = "<group>"; };
 		94C5DE8E1DC5C14300582DC3 /* SkyKit-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SkyKit-Release.xcconfig"; sourceTree = "<group>"; };
 		94C5DE8F1DC5C15100582DC3 /* SkyKit-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SkyKit-Debug.xcconfig"; sourceTree = "<group>"; };
+		94C5DE9C1DC5C6B700582DC3 /* AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		94C5DE7F1DC5C0D300582DC3 /* SkyKit */ = {
 			isa = PBXGroup;
 			children = (
+				94C5DE9C1DC5C6B700582DC3 /* AutoLayout.swift */,
 				94C5DE881DC5C0D900582DC3 /* Support Files */,
 			);
 			path = SkyKit;
@@ -123,6 +126,7 @@
 				TargetAttributes = {
 					94C5DE7C1DC5C0D300582DC3 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -159,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C5DE9D1DC5C6B700582DC3 /* AutoLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +217,7 @@
 				94C5DE871DC5C0D300582DC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

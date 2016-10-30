@@ -28,12 +28,13 @@ INFOPLIST_FILE = SkyKit/Info.plist
 PRODUCT_BUNDLE_IDENTIFIER = com.skylarsch.SkyKit
 PRODUCT_NAME = SkyKit
 
+
 //
 //  Signing
 //
 CODE_SIGN_IDENTITY =
 
 //
-//  User Defined
+//  Swift Compiler - Version
 //
-SWIFT_VERSION = 3.0
+SWIFT_VERSION = 3.0.1
