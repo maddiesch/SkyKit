@@ -1,0 +1,219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94C5DE821DC5C0D300582DC3 /* SkyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C5DE801DC5C0D300582DC3 /* SkyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94C5DE7D1DC5C0D300582DC3 /* SkyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C5DE801DC5C0D300582DC3 /* SkyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyKit.h; sourceTree = "<group>"; };
+		94C5DE811DC5C0D300582DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C5DE8A1DC5C11C00582DC3 /* Project-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Base.xcconfig"; sourceTree = "<group>"; };
+		94C5DE8B1DC5C12800582DC3 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		94C5DE8C1DC5C13200582DC3 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		94C5DE8D1DC5C13A00582DC3 /* SkyKit-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SkyKit-Base.xcconfig"; sourceTree = "<group>"; };
+		94C5DE8E1DC5C14300582DC3 /* SkyKit-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SkyKit-Release.xcconfig"; sourceTree = "<group>"; };
+		94C5DE8F1DC5C15100582DC3 /* SkyKit-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SkyKit-Debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C5DE791DC5C0D300582DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C5DE731DC5C0D300582DC3 = {
+			isa = PBXGroup;
+			children = (
+				94C5DE891DC5C10700582DC3 /* config */,
+				94C5DE7F1DC5C0D300582DC3 /* SkyKit */,
+				94C5DE7E1DC5C0D300582DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C5DE7E1DC5C0D300582DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C5DE7D1DC5C0D300582DC3 /* SkyKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C5DE7F1DC5C0D300582DC3 /* SkyKit */ = {
+			isa = PBXGroup;
+			children = (
+				94C5DE881DC5C0D900582DC3 /* Support Files */,
+			);
+			path = SkyKit;
+			sourceTree = "<group>";
+		};
+		94C5DE881DC5C0D900582DC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C5DE801DC5C0D300582DC3 /* SkyKit.h */,
+				94C5DE811DC5C0D300582DC3 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		94C5DE891DC5C10700582DC3 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				94C5DE8A1DC5C11C00582DC3 /* Project-Base.xcconfig */,
+				94C5DE8B1DC5C12800582DC3 /* Project-Release.xcconfig */,
+				94C5DE8C1DC5C13200582DC3 /* Project-Debug.xcconfig */,
+				94C5DE8D1DC5C13A00582DC3 /* SkyKit-Base.xcconfig */,
+				94C5DE8E1DC5C14300582DC3 /* SkyKit-Release.xcconfig */,
+				94C5DE8F1DC5C15100582DC3 /* SkyKit-Debug.xcconfig */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94C5DE7A1DC5C0D300582DC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C5DE821DC5C0D300582DC3 /* SkyKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94C5DE7C1DC5C0D300582DC3 /* SkyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C5DE851DC5C0D300582DC3 /* Build configuration list for PBXNativeTarget "SkyKit" */;
+			buildPhases = (
+				94C5DE781DC5C0D300582DC3 /* Sources */,
+				94C5DE791DC5C0D300582DC3 /* Frameworks */,
+				94C5DE7A1DC5C0D300582DC3 /* Headers */,
+				94C5DE7B1DC5C0D300582DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyKit;
+			productName = SkyKit;
+			productReference = 94C5DE7D1DC5C0D300582DC3 /* SkyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C5DE741DC5C0D300582DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Skylar Schipper";
+				TargetAttributes = {
+					94C5DE7C1DC5C0D300582DC3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 94C5DE771DC5C0D300582DC3 /* Build configuration list for PBXProject "SkyKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94C5DE731DC5C0D300582DC3;
+			productRefGroup = 94C5DE7E1DC5C0D300582DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C5DE7C1DC5C0D300582DC3 /* SkyKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C5DE7B1DC5C0D300582DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C5DE781DC5C0D300582DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94C5DE831DC5C0D300582DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C5DE8C1DC5C13200582DC3 /* Project-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		94C5DE841DC5C0D300582DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C5DE8B1DC5C12800582DC3 /* Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		94C5DE861DC5C0D300582DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C5DE8F1DC5C15100582DC3 /* SkyKit-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		94C5DE871DC5C0D300582DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C5DE8E1DC5C14300582DC3 /* SkyKit-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C5DE771DC5C0D300582DC3 /* Build configuration list for PBXProject "SkyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C5DE831DC5C0D300582DC3 /* Debug */,
+				94C5DE841DC5C0D300582DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C5DE851DC5C0D300582DC3 /* Build configuration list for PBXNativeTarget "SkyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C5DE861DC5C0D300582DC3 /* Debug */,
+				94C5DE871DC5C0D300582DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C5DE741DC5C0D300582DC3 /* Project object */;
+}

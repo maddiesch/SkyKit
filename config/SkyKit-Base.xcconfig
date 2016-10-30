@@ -1,0 +1,39 @@
+//
+//  SkyKit-Base.xcconfig
+//  SkyKit
+//
+//  Created by Skylar Schipper on 10/29/16.
+//  Copyright © 2016 Skylar Schipper. All rights reserved.
+//
+
+//
+//  Deployment
+//
+INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
+SKIP_INSTALL = YES
+
+//
+//  Linking
+//
+DYLIB_COMPATIBILITY_VERSION = 1
+DYLIB_CURRENT_VERSION = 1
+DYLIB_INSTALL_NAME_BASE = @rpath
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+
+//
+//  Packaging
+//
+DEFINES_MODULE = YES
+INFOPLIST_FILE = SkyKit/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = com.skylarsch.SkyKit
+PRODUCT_NAME = SkyKit
+
+//
+//  Signing
+//
+CODE_SIGN_IDENTITY =
+
+//
+//  User Defined
+//
+SWIFT_VERSION = 3.0
