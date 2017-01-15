@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941702F71E1F207800792530 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941702F61E1F207800792530 /* Constraints.swift */; };
 		94C5DE821DC5C0D300582DC3 /* SkyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C5DE801DC5C0D300582DC3 /* SkyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94C5DE9D1DC5C6B700582DC3 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5DE9C1DC5C6B700582DC3 /* AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		941702F61E1F207800792530 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		94C5DE7D1DC5C0D300582DC3 /* SkyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C5DE801DC5C0D300582DC3 /* SkyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyKit.h; sourceTree = "<group>"; };
 		94C5DE811DC5C0D300582DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		941702F51E1F206D00792530 /* Auto Layout */ = {
+			isa = PBXGroup;
+			children = (
+				94C5DE9C1DC5C6B700582DC3 /* AutoLayout.swift */,
+				941702F61E1F207800792530 /* Constraints.swift */,
+			);
+			name = "Auto Layout";
+			sourceTree = "<group>";
+		};
 		94C5DE731DC5C0D300582DC3 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +66,7 @@
 		94C5DE7F1DC5C0D300582DC3 /* SkyKit */ = {
 			isa = PBXGroup;
 			children = (
-				94C5DE9C1DC5C6B700582DC3 /* AutoLayout.swift */,
+				941702F51E1F206D00792530 /* Auto Layout */,
 				94C5DE881DC5C0D900582DC3 /* Support Files */,
 			);
 			path = SkyKit;
@@ -163,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941702F71E1F207800792530 /* Constraints.swift in Sources */,
 				94C5DE9D1DC5C6B700582DC3 /* AutoLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
