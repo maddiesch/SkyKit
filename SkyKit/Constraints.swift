@@ -19,6 +19,7 @@ public func <<|(lhv: UIView, rhv: [NSLayoutConstraint]) {
     lhv.addConstraints(rhv)
 }
 
+/// Helper methods for creating constraints.
 public extension NSLayoutConstraint {
     /// Creates a set of constraints offset from the passed view's superview's edges
     ///
@@ -53,6 +54,12 @@ public extension NSLayoutConstraint {
         return constraints
     }
 
+    /// Center the view in its superview.
+    ///
+    /// - Parameters:
+    ///   - view: The view to center
+    ///   - offset: The offset for the center
+    /// - Returns: The constraints
     public class func center(viewInSuperview view: UIView, offset: CGPoint = CGPoint.zero) -> [NSLayoutConstraint] {
         return [
             NSLayoutConstraint(item: view, attribute: .centerX, relatedBy: .equal, toItem: view.superview, attribute: .centerX, multiplier: 1.0, constant: offset.x),

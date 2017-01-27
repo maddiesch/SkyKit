@@ -15,6 +15,9 @@ public protocol AutoLayout {
 }
 
 public extension AutoLayout {
+    /// Create a new view and set its `translatesAutoresizingMaskIntoConstraints` to false.
+    ///
+    /// - Returns: A new view instance.
     static func createAutoLayoutView() -> Self {
         var view = Self.init(frame: CGRect.zero)
         view.translatesAutoresizingMaskIntoConstraints = false

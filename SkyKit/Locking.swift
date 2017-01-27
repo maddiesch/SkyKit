@@ -17,6 +17,9 @@ public protocol Locking {
 }
 
 public extension Locking {
+    /// Perform a block within the lock.
+    ///
+    /// - Parameter block: The block to execute
     public final func sync<T>(_ block: (Void) throws -> (T)) rethrows -> T {
         self.lock()
         defer {
