@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		941702F71E1F207800792530 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941702F61E1F207800792530 /* Constraints.swift */; };
+		9448947F1E3AF23900B8DAE9 /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9448947E1E3AF23900B8DAE9 /* Mutex.swift */; };
+		944894811E3AF53300B8DAE9 /* Locking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944894801E3AF53300B8DAE9 /* Locking.swift */; };
 		94C5DE821DC5C0D300582DC3 /* SkyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C5DE801DC5C0D300582DC3 /* SkyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94C5DE9D1DC5C6B700582DC3 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5DE9C1DC5C6B700582DC3 /* AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		941702F61E1F207800792530 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		9448947E1E3AF23900B8DAE9 /* Mutex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutex.swift; sourceTree = "<group>"; };
+		944894801E3AF53300B8DAE9 /* Locking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locking.swift; sourceTree = "<group>"; };
 		94C5DE7D1DC5C0D300582DC3 /* SkyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C5DE801DC5C0D300582DC3 /* SkyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyKit.h; sourceTree = "<group>"; };
 		94C5DE811DC5C0D300582DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +50,15 @@
 			name = "Auto Layout";
 			sourceTree = "<group>";
 		};
+		9448947D1E3AF22900B8DAE9 /* Locking */ = {
+			isa = PBXGroup;
+			children = (
+				944894801E3AF53300B8DAE9 /* Locking.swift */,
+				9448947E1E3AF23900B8DAE9 /* Mutex.swift */,
+			);
+			name = Locking;
+			sourceTree = "<group>";
+		};
 		94C5DE731DC5C0D300582DC3 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +79,7 @@
 		94C5DE7F1DC5C0D300582DC3 /* SkyKit */ = {
 			isa = PBXGroup;
 			children = (
+				9448947D1E3AF22900B8DAE9 /* Locking */,
 				941702F51E1F206D00792530 /* Auto Layout */,
 				94C5DE881DC5C0D900582DC3 /* Support Files */,
 			);
@@ -176,6 +190,8 @@
 			files = (
 				941702F71E1F207800792530 /* Constraints.swift in Sources */,
 				94C5DE9D1DC5C6B700582DC3 /* AutoLayout.swift in Sources */,
+				9448947F1E3AF23900B8DAE9 /* Mutex.swift in Sources */,
+				944894811E3AF53300B8DAE9 /* Locking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

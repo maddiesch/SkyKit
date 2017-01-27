@@ -20,7 +20,6 @@ public func <<|(lhv: UIView, rhv: [NSLayoutConstraint]) {
 }
 
 public extension NSLayoutConstraint {
-
     /// Creates a set of constraints offset from the passed view's superview's edges
     ///
     /// - Parameters:
